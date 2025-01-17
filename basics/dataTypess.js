@@ -37,3 +37,21 @@ const isLoggedIn=false
 
 //  https://tc39.es/ecma262/#sec-typeof-operator
 
+
+
+//stack(primitive)->copy banti hai , heap(non-primitive)->refrence diya jaata hai
+
+let myYoutubeName="chaiorcode"
+let anotherName=myYoutubeName
+anotherName="ujjwal"
+// console.log(myYoutubeName)
+// console.log(anotherName)
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "ujjwal@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
