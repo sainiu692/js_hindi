@@ -18,7 +18,7 @@ const desi_heros=["shaktiman","naagraj"]
 // console.log(anotherRealArray)
 
 
-// console.log(Array.isArray("ujjwal"));
+console.log(Array.isArray("ujjwal"));
 // console.log(Array.from("ujjwal"));
 
 // console.log(Array.from({name:"ujjwal"}));
