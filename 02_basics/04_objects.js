@@ -45,10 +45,34 @@ const users=[
 ]
 // console.log(users[0].id)
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-// above three line is returning us output as array,we ca ndo diffrent operations on that array.
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// // above three line is returning us output as array,we ca ndo diffrent operations on that array.
 
-console.log(tinderUser.hasOwnProperty('name'))
+// console.log(tinderUser.hasOwnProperty('name'))
+
+
+
+// ******destructuring of objects**///
+
+
+const course={
+    courseName:"js i hindi",
+    coursePrice:"999",
+    courseInstructor:"hitesh"
+}
+const{courseInstructor:cI}=course
+console.log(course.courseInstructor);
+// console.log(courseInstructor);
+console.log(cI);
+
+
+
+// {
+//     "name":"ujjwal",
+//     "course":"js in hindi",
+//     "coursePrice"="free"
+// }
+// above we called json,this is not object
