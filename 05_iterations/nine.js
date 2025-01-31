@@ -31,3 +31,13 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0);
 
 console.log(priceToPay);
+
+// Key Takeaways
+// Variable Hoisting
+
+// var is hoisted but initialized to undefined.
+// let and const are hoisted but remain in the temporal dead zone until initialization.
+// Function Hoisting
+
+// Function declarations are fully hoisted.
+// Function expressions are hoisted only as variables, meaning they behave like var, let, or const.
